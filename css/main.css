@@ -1,0 +1,95 @@
+html {
+    font-size: 100%; /* keep */
+    box-sizing: border-box; /* keep */
+}
+* {
+    box-sizing: inherit; /* keep */
+}
+/* you may add to or change the body rule */
+h1 {
+  font-family:'IM Fell DW Pica', Georgia, serif;
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 4.5rem;
+  color: #EBE9DD;
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #EBE9DD;
+    background: linear-gradient(to right, #9E4853, #881f0e);
+    font-size: 1.3rem;
+}
+
+
+img {
+    max-width: 100%; /* DO NOT delete or change this line */
+    margin:auto;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+
+a {
+    text-decoration: none;
+    color: #A9A794;
+}
+
+a:hover {
+    color: #82E8FF;
+}
+
+p{
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+footer {
+  margin: auto;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+
+footer p {
+  text-align: center;
+}
+
+.audio-sample {
+  margin:auto;
+  text-align: center;
+}
+
+#photos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#bigphoto {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+
+#link {
+  font-size: 0.8rem;
+  justify-content: center;
+}
+
+@media screen and (max-width: 790px) {
+  body {
+    margin: 1rem;
+    font-size: 1rem;
+  }
+  h1 {
+    margin: 0;
+    font-size: 3rem;
+  }
+  p{
+    width: 100%;
+  }
+}
